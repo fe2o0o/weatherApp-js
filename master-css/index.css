@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#1e202b ;
+}
+
+.navbar-nav .active{
+    color:#038cc4 !important;
+    border:2px solid #038cc4 !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #038cc4 !important;
+    border: 2px solid #038cc4 !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.main{
+    background-color: #1e202b;
+}
+
+.main #send{
+    position: absolute;
+    right:100px;
+    top:10px;
+    background-color: #038cc4;
+    color: white;
+    border: 0;
+    padding:4px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: 100;
+}
+
+#subscribe{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    background-color: #038cc4;
+    color: white;
+    border: 0;
+    padding: 4px 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: 200;
+}
+
+.main #search:focus{
+    box-shadow: none;
+}
+
+footer #subscribe:focus{
+    box-shadow:0 0 0 0 !important;
+}
+
+.main{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.main .container .location{
+    margin-bottom: 70px;
+}
+
+.item .item-body h1 {
+    font-size: 80px;
+}
+
+.item,
+.forecast2{
+    background-color: #323544;
+    color: white !important;
+}
+
+.forecast1{
+    background-color:#262936;
+}
+
+.num-temp h2{
+    font-size: 50px;
+}
+
+footer{
+    background-color: #323544;
+}
+
+footer .icons a{
+    background-color: #1e202b;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #038cc4;
+}
+
+footer .icons a:hover{
+    background-color: #038cc4;
+    color: white;
+}
