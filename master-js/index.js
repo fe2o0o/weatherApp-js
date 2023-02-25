@@ -33,11 +33,11 @@ function displayHeader() {
         <p>${d.getDate()} ${months[d.getMonth()]}</p>
     `;
     var forecast1 = `
-        <p>${days[d.getDay()+1]}</p>
+        <p>${days[d.getDay()+1] || days[0] }</p>
     `;
 
     var forecast2 = `
-        <p>${days[d.getDay() + 2]}</p>
+        <p>${days[d.getDay() + 2] || days[1] }</p>
     `;
 
     document.getElementById("itemHeader").innerHTML = divHeader;
