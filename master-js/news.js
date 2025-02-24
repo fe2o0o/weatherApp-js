@@ -1,6 +1,6 @@
 (async function () {
     const news_container = document.getElementById('news_container')
-    const my_http = await fetch('../news.json')
+    const my_http = await fetch('../weatherApp-js/news.json')
 
     if (my_http.status == 200) {
         // console.log("res news ", await my_http.json());
